@@ -1,0 +1,160 @@
+
+button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 4px;
+    border: none;
+}
+
+.open-button {
+    padding: 10px 32px;
+    min-width: 216px;
+    text-align: inherit;
+    background-color: $accent-text-color;
+    color: $text-white-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        background-color: #188CE8;
+        outline: transparent;
+    }
+}
+
+.portfolio-button {
+    padding: 6px 22px;
+    min-width: 73px;
+    text-align: center;
+    background-color: $button-portfolio-bgc-color;
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        color: $text-white-color;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        outline: transparent;
+    }
+}
+
+.footer-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 28px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06;
+    color: $text-white-color;
+
+    background-color: $accent-text-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        background-color: #188CE8;
+        outline: transparent;
+    }
+}
+
+.footer-button-icon {
+    margin-left: 10px;
+    fill: $text-white-color;
+}
+
+.button-close {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: $bgc-page;
+
+    transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus .button-close__icon,
+    &:hover .button-close__icon {
+        fill: $accent-text-color;
+    }
+
+    &__icon {
+    fill: #000000;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+.button-send {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 52px;
+
+    color: $text-white-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    background-color: $accent-text-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+    background-color: #188CE8;
+}
+}
+
+// .button-close__icon {
+//     fill: #000000;
+//     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+// .button-send:focus,
+// .button-send:hover {
+//     background-color: #188CE8;
+// }
+
+// .open-button:focus,
+// .open-button:hover {
+//     background-color: #188CE8;
+//     outline: transparent;
+// }
+
+// .portfolio-button:hover,
+// .portfolio-button:focus {
+//     background-color: #2196F3;
+//     color: $text-white-color;
+//     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+//     outline: transparent;
+//     /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+// }
+
+// .footer-form button:focus,
+// .footer-form button:hover {
+//     background-color: #188CE8;
+//     outline: transparent;
+// }

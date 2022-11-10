@@ -1,0 +1,110 @@
+.section-two {
+    background-color: $bgc-page;
+
+    &__title {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+    
+        color: red;
+    
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__item {
+        flex-basis: calc((100% - 3 * 30px) / 4);
+    }
+
+    &__desc {
+        font-size: 14px;
+        line-height: 1.71;
+        color: $primary-text-color;
+    }
+
+    &__icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+        background-color: #F5F4FA;
+    }
+}
+
+// .section-two__title {
+//     position: absolute;
+//     white-space: nowrap;
+//     width: 1px;
+//     height: 1px;
+//     overflow: hidden;
+//     border: 0;
+//     padding: 0;
+//     clip: rect(0 0 0 0);
+//     clip-path: inset(50%);
+//     margin: -1px;
+
+//     color: red;
+
+//     text-transform: uppercase;
+//     font-weight: 700;
+//     font-size: 44px;
+//     line-height: 1.36;
+//     text-align: center;
+//     letter-spacing: 0.06em;
+// }
+// .section-two__subtitle {
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+// }
+
+// .section-two__items {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 30px;
+// }
+
+// .section-two__item {
+//     flex-basis: calc((100% - 3 * 30px) / 4);
+// }
+
+// .section-two__desc {
+//     font-size: 14px;
+//     line-height: 1.71;
+//     color: $primary-text-color;
+// }
+
+// .section-two__icon-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 270px;
+//     height: 120px;
+//     margin-bottom: 30px;
+//     background-color: #F5F4FA;
+// }

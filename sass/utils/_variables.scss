@@ -1,0 +1,65 @@
+
+$title-text-color: #212121;
+$primary-text-color: #757575;
+$accent-text-color: #2196F3;
+$text-white-color: #ffffff;
+$button-text-color: rgba(255, 255, 255, 0.6);
+$button-portfolio-bgc-color: #F5F4FA;
+$bgc-page: #ffffff;
+$footer-bgc: #2F303A;
+$portfolio-bgc: #F5F5F5;
+$color-social: #AFB1B8;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bgc-page);
+    font-family: roboto, sans-serif;
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 1px solid red; */
+}
+
+.section {
+    /* outline: 2px solid green; */
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
