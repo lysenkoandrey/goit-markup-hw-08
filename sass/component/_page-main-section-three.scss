@@ -1,4 +1,9 @@
 .section-three {
+
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+    
     background-color: $bgc-page;
     padding-top: 0;
 

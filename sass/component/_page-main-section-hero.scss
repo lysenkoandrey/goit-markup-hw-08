@@ -1,26 +1,37 @@
 .section-hero {
     max-width: 1600px;
-    height: 600px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     text-align: center;
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero.jpg), #C4C4C4;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
+    @media screen and (min-width: 1200px) {
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
     &__title {
-        width: 696px;
+        width: 360px;
         margin: 0 auto 30px auto;
     
         color: $text-white-color;
         text-transform: uppercase;
         font-weight: 900;
-        font-size: 44px;
+        font-size: 26px;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 44px;
+            width: 696px;
+        }
     }
 }
