@@ -8,6 +8,38 @@ button {
     border: none;
 }
 
+.mobile-menu-button {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 10;
+    display: inline-flex;
+    border: none;
+    background-color: transparent;
+    outline: transparent;
+    fill: $title-text-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    & .mobile-menu-button__icon-cross {
+        display: none;
+    }
+
+    &.is-open .mobile-menu-button__icon-cross {
+        display: block;
+    }
+
+    &.is-open .mobile-menu-button__icon-menu {
+        display: none;
+    }
+
+    &:focus {
+        fill: $title-text-color;
+    }
+    &:active {
+        fill: $accent-text-color;
+    }
+}
+
 .open-button {
     padding: 10px 32px;
     min-width: 216px;

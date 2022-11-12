@@ -3,7 +3,12 @@
     margin-bottom: 50px;
     
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+    }
+
     line-height: 1.17;
     text-align: center;
     }
@@ -23,7 +28,13 @@
 }
 
 .company-card {
-    flex-basis: calc((100% - 1 * 30px) / 2);
+    // flex-basis: calc((100% - 1 * 30px) / 2);
+
+    &:not(:last-child) {
+        @media screen and (max-width: 479px) {
+            margin-bottom: 30px;
+        }
+    }
 
     @media screen and (min-width: 480px) {
         flex-basis: calc((100% - 1 * 30px) / 2);

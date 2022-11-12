@@ -44,6 +44,9 @@ li {
 }
 
 body {
+    @media screen and (max-width: 767px) {
+        padding-top: 60px;
+    }
     background-color: var(--bgc-page);
     font-family: roboto, sans-serif;
     color: var(--title-text-color);

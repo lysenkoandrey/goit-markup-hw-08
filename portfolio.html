@@ -18,13 +18,79 @@
 
 <body>
     <!-- HEADER -->
+    <!-- header mobile -->
+    <header class="page-header-mobile">
+        <div class="container">
+            <div class="page-header-mobile__container">
+                <a href="./index.html" lang="en" class="logo page-header-mobile__logo link">Web<span
+                        class="page-header__logo--accent">Studio</span>
+                </a>
+                <button type="button" class="mobile-menu-button" data-menu-button>
+                    <svg class="" width="40" height="40" aria-label="переключатель мобільного меню">
+                        <use class="mobile-menu-button__icon-menu" href="./images/icon.svg#icon-open-menu"></use>
+                        <use class="mobile-menu-button__icon-cross" href="./images/icon.svg#icon-close-menu"></use>
+                    </svg>
+                </button>
+                <div class="backdrop-mobile is-open" data-menu>
+                    <div class="mobile-menu">
+                        <nav class="navigation-mobile">
+                            <ul class="navigation-mobile__items list">
+                                <li class="navigation-mobile__item"><a href="./index.html"
+                                        class="navigation-mobile__link link">Студія</a>
+                                </li>
+                                <li class="navigation-mobile__item"><a href="./portfolio.html"
+                                        class="navigation-mobile__link link current-mobile">Портфоліо</a>
+                                </li>
+                                <li class="navigation-mobile__item"><a href="#"
+                                        class="navigation-mobile__link link">Контакти</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="contact-mobile list">
+                            <li class="contact-mobile__item">
+                                <a href="mailto:info@devstudio.com" class="contact-mobile__link-tel link">+38 096 111 11
+                                    11</a>
+                            </li>
+                            <li class="contact-mobile__item">
+                                <a href="tel:+380961111111" class="contact-mobile__link-mail link">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                        <ul class="social-mobile list">
+                            <li class="social-mobile__item">
+                                <a href="" class="social-mobile__link link">Instagram</a>
+                            </li>
+                            <li>
+                                <div class="social-mobile__wall"></div>
+                            </li>
+                            <li class="social-mobile__item">
+                                <a href="" class="social-mobile__link link">Twitter</a>
+                            </li>
+                            <li>
+                                <div class="social-mobile__wall"></div>
+                            </li>
+                            <li class="social-mobile__item">
+                                <a href="" class="social-mobile__link link">Facebook</a>
+                            </li>
+                            <li>
+                                <div class="social-mobile__wall"></div>
+                            </li>
+                            <li class="social-mobile__item">
+                                <a href="" class="social-mobile__link link">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header mobile&desktop -->
     <header class="page-header">
         <div class="container page-header__container">
             <nav class="navigation">
                 <a href="./index.html" lang="en" class="logo page-header__logo link">Web<span
                         class="page-header__logo--accent">Studio</span></a>
                 <ul class="navigation__items list">
-                    <li class="navigation__item"><a href="./index.html" class="navigation__link link ">Студія</a>
+                    <li class="navigation__item"><a href="./index.html" class="navigation__link link">Студія</a>
                     </li>
                     <li class="navigation__item"><a href="./portfolio.html" class="navigation__link link current">Портфоліо</a>
                     </li>
@@ -34,7 +100,7 @@
             <ul class="contact list">
                 <li class="contact__item">
                     <a href="mailto:info@devstudio.com" class="contact__link link">
-                        <svg width="16" height="12" class="contact__icon">
+                        <svg class="contact__icon-mail">
                             <use href="./images/icon.svg#icon-mail">
                             </use>
                         </svg>
@@ -42,7 +108,7 @@
                 </li>
                 <li class="contact__item">
                     <a href="tel:+380961111111" class="contact__link link">
-                        <svg width="10" height="16" class="contact__icon">
+                        <svg class="contact__icon-phone">
                             <use href="./images/icon.svg#icon-phone">
                             </use>
                         </svg>
@@ -56,29 +122,33 @@
         <div class="container">
             <section class="section">
                 <h1 class="portfolio-page__title">Фільтр на сторінці Портфоліо</h1>
-                <ul class="portfolio-page__filter list">
-                    <li class="portfolio-page__filter-item">
-                        <button type="button" class="portfolio-button">Усі</button>
-                    </li>
-                    <li class="portfolio-page__filter-item">
-                        <button type="button" class="portfolio-button">Веб-сайти</button>
-                    </li>
-                    <li class="portfolio-page__filter-item">
-                        <button type="button" class="portfolio-button">Додатки</button>
-                    </li>
-                    <li class="portfolio-page__filter-item">
-                        <button type="button" class="portfolio-button">Дизайн</button>
-                    </li>
-                    <li class="portfolio-page__filter-item">
-                        <button type="button" class="portfolio-button">Маркетинг</button>
-                    </li>
-                </ul>
+                <div class="portfolio-page__filter-wrapper">
+                    <ul class="portfolio-page__filter list">
+                        <li class="portfolio-page__filter-item">
+                            <button type="button" class="portfolio-button">Усі</button>
+                        </li>
+                        <li class="portfolio-page__filter-item">
+                            <button type="button" class="portfolio-button">Веб-сайти</button>
+                        </li>
+                        <li class="portfolio-page__filter-item">
+                            <button type="button" class="portfolio-button">Додатки</button>
+                    </ul>
+                    <ul class="portfolio-page__filter list">
+                        </li>
+                        <li class="portfolio-page__filter-item">
+                            <button type="button" class="portfolio-button">Дизайн</button>
+                        </li>
+                        <li class="portfolio-page__filter-item">
+                            <button type="button" class="portfolio-button">Маркетинг</button>
+                        </li>
+                    </ul>
+                </div>
                 <!-- <h2 class="section-title">Портфоліо наочно</h2> -->
                 <ul class="product-card list">
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-1.jpg" alt="Приклад один" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-1.jpg" alt="Приклад один">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Ресурс пропонує комплексні пропозиції з різним
                                         рівнем функціоналу та сервісів. Все
@@ -96,7 +166,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-2.jpg" alt="Приклад два" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-2.jpg" alt="Приклад два">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet, consectetur
                                         adipisicing elit. Nobis id quidem exercitationem vitae iure.
@@ -112,7 +182,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-3.jpg" alt="Приклад три" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-3.jpg" alt="Приклад три">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit.
@@ -128,7 +198,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-4.jpg" alt="Приклад чотири" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-4.jpg" alt="Приклад чотири">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit. Dolores laudantium at aperiam. Earum adipisci optio officiis
@@ -145,7 +215,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-5.jpg" alt="Приклад п'ять" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-5.jpg" alt="Приклад п'ять">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet.
                                     </p>
@@ -160,7 +230,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-6.jpg" alt="Приклад шість" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-6.jpg" alt="Приклад шість">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit. Voluptatem ipsum similique, sequi suscipit, optio dignissimos
@@ -178,7 +248,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-7.jpg" alt="Приклад сім" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-7.jpg" alt="Приклад сім">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit. Quibusdam eum ullam
@@ -197,7 +267,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-8.jpg" alt="Приклад вісім" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-8.jpg" alt="Приклад вісім">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit. Nam officia eaque velit. Inventore adipisci nesciunt error
@@ -214,7 +284,7 @@
                     <li class="product-card__item">
                         <a href="#" class="product-card__link link">
                             <div class="product-card__picture-wrapper">
-                                <img class="product-card__picture" src="./images/portfolio-9.jpg" alt="Приклад дев'ять" width="370">
+                                <img class="product-card__picture" src="./images/portfolio-9.jpg" alt="Приклад дев'ять">
                                 <div class="product-card__accent-wrapper">
                                     <p class="product-card__accent-text">Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit. Similique eaque adipisci magnam quas tempore nemo!
@@ -234,63 +304,65 @@
     <!-- FOOTER -->
     <footer class="page-footer">
         <div class="container page-footer__container">
-            <div class="page-footer__contact">
-                <a href="./index.html" lang="en" class="logo page-footer__logo link">Web<span
-                        class="page-footer__logo--accent">Studio</span></a>
-                <address class="page-footer__address">
-                    <ul class="page-footer__items list">
-                        <li class="page-footer__item"><a
-                                href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-                                target="_blank" rel="noopener noreferrer" class="page-footer__link--accent link">м.
-                                Київ, пр-т Лесі Українки, 26</a>
+            <div class="page-footer__tablet-wrapper">
+                <div class="page-footer__contact">
+                    <a href="./index.html" lang="en" class="logo page-footer__logo link">Web<span
+                            class="page-footer__logo--accent">Studio</span></a>
+                    <address class="page-footer__address">
+                        <ul class="page-footer__items list">
+                            <li class="page-footer__item"><a
+                                    href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                                    target="_blank" rel="noopener noreferrer" class="page-footer__link--accent link">м.
+                                    Київ, пр-т Лесі Українки, 26</a>
+                            </li>
+                            <li class="page-footer__item"><a href="mailto:info@devstudio.com"
+                                    class="page-footer__link link">info@devstudio.com</a></li>
+                            <li class="page-footer__item"><a href="tel:+380961111111" class="page-footer__link link">+38 096
+                                    111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-social">
+                    <h4 class="footer-social__title">приєднуйтесь</h4>
+                    <ul class="footer-social__items list">
+                        <li class="footer-social__item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
+                                aria-label="instagram">
+                                <svg width="20" height="20" class="footer-social__icon">
+                                    <use href="./images/icon.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="page-footer__item"><a href="mailto:info@devstudio.com"
-                                class="page-footer__link link">info@devstudio.com</a></li>
-                        <li class="page-footer__item"><a href="tel:+380961111111" class="page-footer__link link">+38 096
-                                111 11 11</a></li>
+                        <li class="footer-social__item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
+                                aria-label="twitter">
+                                <svg width="20" height="20" class="footer-social__icon">
+                                    <use href="./images/icon.svg#icon-twitter">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social__item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
+                                aria-label="facebook">
+                                <svg width="20" height="20" class="footer-social__icon">
+                                    <use href="./images/icon.svg#icon-facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social__item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
+                                aria-label="linkedin">
+                                <svg width="20" height="20" class="footer-social__icon">
+                                    <use href="./images/icon.svg#icon-linkedin">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
-                </address>
-            </div>
-            <div class="footer-social">
-                <h4 class="footer-social__title">приєднуйтесь</h4>
-                <ul class="footer-social__items list">
-                    <li class="footer-social__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
-                            aria-label="instagram">
-                            <svg width="20" height="20" class="footer-social__icon">
-                                <use href="./images/icon.svg#icon-instagram">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
-                            aria-label="twitter">
-                            <svg width="20" height="20" class="footer-social__icon">
-                                <use href="./images/icon.svg#icon-twitter">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
-                            aria-label="facebook">
-                            <svg width="20" height="20" class="footer-social__icon">
-                                <use href="./images/icon.svg#icon-facebook">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social__item">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social__link"
-                            aria-label="linkedin">
-                            <svg width="20" height="20" class="footer-social__icon">
-                                <use href="./images/icon.svg#icon-linkedin">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+                </div>
             </div>
             <form class="footer-form">
                 <label class="footer-form__title" for="email-footer">Підпишіться на розсилку</label>
@@ -307,5 +379,7 @@
             </form>
         </div>
     </footer>
+    <!-- JS -->
+    <script src="./js/menu.js"></script>
 </body>
 </html>
