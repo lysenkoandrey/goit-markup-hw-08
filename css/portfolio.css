@@ -76,6 +76,12 @@ body {
   }
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .logo {
   color: #2196F3;
   font-family: Raleway;
@@ -503,10 +509,6 @@ body {
 .product-card__border {
   border: 1px solid #EEEEEE;
   border-top: none;
-}
-.product-card__img {
-  display: block;
-  width: 100%;
 }
 .product-card__subtitle {
   margin-left: 24px;
