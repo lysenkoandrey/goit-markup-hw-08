@@ -448,10 +448,32 @@ body {
   padding-top: 118px;
   padding-bottom: 118px;
   text-align: center;
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero.jpg), #C4C4C4;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-480.jpg) no-repeat center/cover, #C4C4C4;
+}
+@media (min-device-pixel-ratio: 2), (min-resoluion: 192dpi), (min-resoluion: 2dppx) {
+  .section-hero {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-480@2x.jpg) no-repeat center/cover, #C4C4C4;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-hero {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-768.jpg) no-repeat center/cover, #C4C4C4;
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resoluion: 192dpi), screen and (min-width: 768px) and (min-resoluion: 2dppx) {
+  .section-hero {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-768@2x.jpg) no-repeat center/cover, #C4C4C4;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-hero {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-1200.jpg) no-repeat center/cover, #C4C4C4;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resoluion: 192dpi), screen and (min-width: 1200px) and (min-resoluion: 2dppx) {
+  .section-hero {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-1200@2x.jpg) no-repeat center/cover, #C4C4C4;
+  }
 }
 @media screen and (min-width: 1200px) {
   .section-hero {
@@ -624,10 +646,10 @@ body {
     width: 270px;
   }
 }
-.card-command__picture {
+.card-command__img {
   display: block;
-  margin-bottom: 30px;
   width: 100%;
+  margin-bottom: 30px;
 }
 .card-command__name {
   margin-bottom: 10px;

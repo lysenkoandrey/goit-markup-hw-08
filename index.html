@@ -181,8 +181,10 @@
                     <li class="section-three__item">
                         <a href="#" class="section-three__link link">
                             <div class="section-three__card">
-                                <img src="./images/box1.jpg" alt="Десктопні додатки" width="370"
-                                    class="section-three__picture">
+                                <picture>
+                                    <source srcset="./images/main-page-section-three/img-1-1200.jpg 1x, ./images/main-page-section-three/img-1-1200@2x.jpg 2x" type="image/jpg">
+                                    <img class="section-three__picture" src="./images/main-page-section-three/img-1-1200.jpg 1x, ./images/main-page-section-three/img-1-1200@2x.jpg 2x" alt="Десктопні додатки">
+                                </picture>
                                 <p class="section-three__subtitle">Десктопні додатки</p>
                             </div>
                         </a>
@@ -190,8 +192,11 @@
                     <li class="section-three-item">
                         <a href="#" class="section-three__link link">
                             <div class="section-three__card">
-                                <img src="./images/box2.jpg" alt="Мобільні додатки" width="370"
-                                    class="section-three__picture">
+                                <picture>
+                                    <source srcset="./images/main-page-section-three/img-2-1200.jpg 1x, ./images/main-page-section-three/img-2-1200@2x.jpg 2x" type="image/jpg">
+                                    <img class="section-three__picture" src="./images/main-page-section-three/img-2-1200.jpg 1x, ./images/main-page-section-three/img-2-1200@2x.jpg 2x"
+                                        alt="Мобільні додатки">
+                                </picture>
                                 <p class="section-three__subtitle">Мобільні додатки</p>
                             </div>
                         </a>
@@ -199,8 +204,14 @@
                     <li class="section-three__item">
                         <a href="#" class="section-three__link link">
                             <div class="section-three__card">
-                                <img src="./images/box3.jpg" alt="Дизайнерські рішення" width="370"
-                                    class="section-three__picture">
+                                <picture>
+                                    <source
+                                        srcset="./images/main-page-section-three/img-3-1200.jpg 1x, ./images/main-page-section-three/img-3-1200@2x.jpg 2x"
+                                        type="image/jpg">
+                                    <img class="section-three__picture"
+                                        src="./images/main-page-section-three/img-3-1200.jpg 1x, ./images/main-page-section-three/img-3-1200@2x.jpg 2x"
+                                        alt="Дизайнерські рішення">
+                                </picture>
                                 <p class="section-three__subtitle">Дизайнерські рішення</p>
                             </div>
                         </a>
@@ -214,8 +225,24 @@
                 <h2 class="section-four__title">Наша команда</h2>
                 <ul class="section-four__items list">
                     <li class="card-command">
-                        <img src="./images/team-member-1.jpg" alt="Фото Ігоря Дем'яненка"
-                            class="card-command__picture">
+                        <picture class="card-command__picture">
+                            <source
+                                srcset="./images/main-page-section-four/team-member-1-480.jpg 1x, ./images/main-page-section-four/team-member-1-480@2x.jpg 2x"
+                                type="image/jpg"
+                                media="(max-width: 767px)">
+                            
+                            <source
+                                srcset="./images/main-page-section-four/team-member-1-1200.jpg 1x, ./images/main-page-section-four/team-member-1-1200@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 1200px)">
+
+                            <source
+                                srcset="./images/main-page-section-four/team-member-1-768.jpg 1x, ./images/main-page-section-four/team-member-1-768@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 768px)">
+
+                            <img class="card-command__img"
+                                src="./images/main-page-section-four/team-member-1-1200.jpg 1x, ./images/main-page-section-four/team-member-1-1200@2x.jpg 2x"
+                                alt="Фото Ігоря Дем'яненка">
+                        </picture>
                         <h3 class="card-command__name">Ігор Дем'яненко</h3>
                         <p class="card-command__desc" lang="en">Product Designer</p>
                         <ul class="social-list list">
@@ -259,8 +286,23 @@
                     </li>
 
                     <li class="card-command">
-                        <img src="./images/team-member-2.jpg" alt="Фото Ольги Рєпіної"
-                            class="card-command__picture">
+                        <picture class="card-command__picture">
+                            <source
+                                srcset="./images/main-page-section-four/team-member-2-480.jpg 1x, ./images/main-page-section-four/team-member-2-480@2x.jpg 2x"
+                                type="image/jpg" media="(max-width: 767px)">
+                        
+                            <source
+                                srcset="./images/main-page-section-four/team-member-2-1200.jpg 1x, ./images/main-page-section-four/team-member-2-1200@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 1200px)">
+                        
+                            <source
+                                srcset="./images/main-page-section-four/team-member-2-768.jpg 1x, ./images/main-page-section-four/team-member-2-768@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 768px)">
+                        
+                            <img class="card-command__img"
+                                src="./images/main-page-section-four/team-member-2-1200.jpg 1x, ./images/main-page-section-four/team-member-2-1200@2x.jpg 2x"
+                                alt="Фото Ольги Рєпіної">
+                        </picture>
                         <h3 class="card-command__name">Ольга Рєпіна</h3>
                         <p class="card-command__desc" lang="en">Frontend Developer</p>
                         <ul class="social-list list">
@@ -303,8 +345,23 @@
                         </ul>
                     </li>
                     <li class="card-command">
-                        <img src="./images/team-member-3.jpg" alt="Фото Миколи Тарасова"
-                            class="card-command__picture">
+                        <picture class="card-command__picture">
+                            <source
+                                srcset="./images/main-page-section-four/team-member-3-480.jpg 1x, ./images/main-page-section-four/team-member-3-480@2x.jpg 2x"
+                                type="image/jpg" media="(max-width: 767px)">
+                        
+                            <source
+                                srcset="./images/main-page-section-four/team-member-3-1200.jpg 1x, ./images/main-page-section-four/team-member-3-1200@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 1200px)">
+                        
+                            <source
+                                srcset="./images/main-page-section-four/team-member-3-768.jpg 1x, ./images/main-page-section-four/team-member-3-768@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 768px)">
+                        
+                            <img class="card-command__img"
+                                src="./images/main-page-section-four/team-member-3-1200.jpg 1x, ./images/main-page-section-four/team-member-3-1200@2x.jpg 2x"
+                                alt="Фото Миколи Тарасова">
+                        </picture>
                         <h3 class="card-command__name">Микола Тарасов</h3>
                         <p class="card-command__desc" lang="en">Marketing</p>
                         <ul class="social-list list">
@@ -347,8 +404,23 @@
                         </ul>
                     </li>
                     <li class="card-command">
-                        <img src="./images/team-member-4.jpg" alt="Фото Михайла Єрмакова"
-                            class="card-command__picture">
+                        <picture class="card-command__picture">
+                            <source
+                                srcset="./images/main-page-section-four/team-member-4-480.jpg 1x, ./images/main-page-section-four/team-member-4-480@2x.jpg 2x"
+                                type="image/jpg" media="(max-width: 767px)">
+                        
+                            <source
+                                srcset="./images/main-page-section-four/team-member-4-1200.jpg 1x, ./images/main-page-section-four/team-member-4-1200@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 1200px)">
+                        
+                            <source
+                                srcset="./images/main-page-section-four/team-member-4-768.jpg 1x, ./images/main-page-section-four/team-member-4-768@2x.jpg 2x"
+                                type="image/jpg" media="(min-width: 768px)">
+                        
+                            <img class="card-command__img"
+                                src="./images/main-page-section-four/team-member-4-1200.jpg 1x, ./images/main-page-section-four/team-member-4-1200@2x.jpg 2x"
+                                alt="Фото Михайла Єрмакова">
+                        </picture>
                         <h3 class="card-command__name">Михайло Єрмаков</h3>
                         <p class="card-command__desc" lang="en">UI Designer</p>
                         <ul class="social-list list">

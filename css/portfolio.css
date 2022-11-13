@@ -504,7 +504,7 @@ body {
   border: 1px solid #EEEEEE;
   border-top: none;
 }
-.product-card__picture {
+.product-card__img {
   display: block;
   width: 100%;
 }
