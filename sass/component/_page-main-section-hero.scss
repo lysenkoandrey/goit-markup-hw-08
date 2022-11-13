@@ -17,7 +17,7 @@
 
 
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 580px) {
         background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-768.jpg) no-repeat center/cover, #C4C4C4;
 
         @media (min-device-pixel-ratio: 2),
@@ -27,7 +27,7 @@
         }
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 960px) {
         background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-page-section-hero/hero-1200.jpg) no-repeat center/cover, #C4C4C4;
 
         @media (min-device-pixel-ratio: 2),
