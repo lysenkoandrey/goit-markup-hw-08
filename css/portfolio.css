@@ -44,10 +44,14 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: 480px;
+  }
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -142,7 +146,7 @@ img {
   .page-header-mobile {
     position: fixed;
     z-index: 3;
-    width: 100%;
+    width: 100vw;
     top: 0;
     background: #ffffff;
   }
