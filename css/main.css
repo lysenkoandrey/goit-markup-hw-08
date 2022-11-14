@@ -241,6 +241,7 @@ img {
   }
   .social-mobile {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   .social-mobile__link {
@@ -656,6 +657,9 @@ img {
     width: 270px;
   }
 }
+.card-command__img {
+  margin-bottom: 30px;
+}
 .card-command__name {
   margin-bottom: 10px;
   font-weight: 500;
@@ -715,21 +719,14 @@ img {
     font-size: 36px;
   }
 }
-@media screen and (min-width: 480px) {
-  .section-five__items {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
+.section-five__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
 }
 
-@media screen and (max-width: 479px) {
-  .company-card:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .company-card {
     flex-basis: calc((100% - 30px) / 2);
   }

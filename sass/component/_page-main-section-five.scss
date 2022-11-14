@@ -15,12 +15,14 @@
 
     &__items {
 
-        @media screen and (min-width: 480px) {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 30px;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+
+        // @media screen and (min-width: 480px) {
+
+        // }
         
     // display: flex;
     // justify-content: space-between;
@@ -30,13 +32,13 @@
 .company-card {
     // flex-basis: calc((100% - 1 * 30px) / 2);
 
-    &:not(:last-child) {
-        @media screen and (max-width: 479px) {
-            margin-bottom: 30px;
-        }
-    }
+    // &:not(:last-child) {
+    //     @media screen and (max-width: 479px) {
+    //         margin-bottom: 30px;
+    //     }
+    // }
 
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         flex-basis: calc((100% - 1 * 30px) / 2);
     }
 
