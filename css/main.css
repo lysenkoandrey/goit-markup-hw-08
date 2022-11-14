@@ -975,7 +975,7 @@ button {
 .mobile-menu-button.is-open .mobile-menu-button__icon-menu {
   display: none;
 }
-.mobile-menu-button:focus {
+.mobile-menu-button:focus, .mobile-menu-button:hover {
   fill: #212121;
 }
 .mobile-menu-button:active {

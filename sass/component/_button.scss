@@ -32,7 +32,8 @@ button {
         display: none;
     }
 
-    &:focus {
+    &:focus,
+    &:hover {
         fill: $title-text-color;
     }
     &:active {
