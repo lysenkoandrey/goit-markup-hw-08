@@ -506,7 +506,7 @@ img {
 @media screen and (min-width: 1200px) {
   .section-hero__title {
     font-size: 44px;
-    width: 696px;
+    max-width: 696px;
   }
 }
 
